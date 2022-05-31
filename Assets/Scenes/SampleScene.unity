@@ -226,6 +226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 206058288528925770, guid: 07fbe9323a87a14478ad3023e393417c,
+        type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 206058288528955736, guid: 07fbe9323a87a14478ad3023e393417c,
         type: 3}
       propertyPath: antialiasingMode
@@ -1806,7 +1811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 977629947}
-  damping: 8
+  damping: 3
 --- !u!1 &5276753385539377382
 GameObject:
   m_ObjectHideFlags: 0

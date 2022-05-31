@@ -6,12 +6,12 @@ public class MousePos3D : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
 
-    private void Update()
+     void Update()
     {
         Ray rayb = mainCamera.ScreenPointToRay(Input.mousePosition);
          if (Physics.Raycast(rayb, out RaycastHit raycastHit))
          {
              transform.position = raycastHit.point;
-         }
+        }
     }
 }
