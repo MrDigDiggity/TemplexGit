@@ -1811,7 +1811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 977629947}
-  damping: 3
+  damping: 8
 --- !u!1 &5276753385539377382
 GameObject:
   m_ObjectHideFlags: 0
