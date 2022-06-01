@@ -6,8 +6,9 @@ public class MousePos3D : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
 
-     void Update()
+    void Update()
     {
+
         Ray rayb = mainCamera.ScreenPointToRay(Input.mousePosition);
          if (Physics.Raycast(rayb, out RaycastHit raycastHit))
          {
