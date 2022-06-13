@@ -1112,6 +1112,7 @@ GameObject:
   - component: {fileID: 2101703380}
   - component: {fileID: 2101703379}
   - component: {fileID: 2101703382}
+  - component: {fileID: 2101703383}
   m_Layer: 2
   m_Name: GameObject
   m_TagString: Untagged
@@ -1176,6 +1177,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.5, z: 1}
   m_Center: {x: 0, y: -1, z: 0}
+--- !u!95 &2101703383
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101703378}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42ad5b80124d20447990ad07e75b7a3b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &13928449527501828
 Transform:
   m_ObjectHideFlags: 0
@@ -1865,7 +1885,7 @@ Animator:
   m_GameObject: {fileID: 5013923402733710092}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e5606fd48fd363247bcca30079daee8b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 85a45e3bfe3942a42b427296ceae9470, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
