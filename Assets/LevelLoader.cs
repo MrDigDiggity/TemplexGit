@@ -11,7 +11,7 @@ public class LevelLoader : MonoBehaviour
 
     public BoxCollider ckollider;
 
-    ckollider.GetComponent<BoxCollider>().trigger;
+    ckollider.GetComponent<BoxCollider>().Trigger;
    
 
     // Update is called once per frame
