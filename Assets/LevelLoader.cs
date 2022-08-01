@@ -9,9 +9,9 @@ public class LevelLoader : MonoBehaviour
 
     public float transitionTime = 3f;
 
-    public BoxCollider ckollider;
+ //   public BoxCollider ckollider;
 
-    ckollider.GetComponent<BoxCollider>().Trigger;
+//    ckollider.GetComponent<BoxCollider>().Trigger;
    
 
     // Update is called once per frame
@@ -19,11 +19,11 @@ public class LevelLoader : MonoBehaviour
     {
 
 
-        void OnTriggerEnter(Collider ckollider)
-        {
-            Debug.Log("YES");
-            LoadNextLevel();
-        }
+      //  void OnTriggerEnter(Collider ckollider)
+      //  {
+     //       Debug.Log("YES");
+    //        LoadNextLevel();
+     //   }
     }
 
     public void LoadNextLevel()
